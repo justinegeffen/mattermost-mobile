@@ -62,7 +62,7 @@ export default class MarkdownLink extends PureComponent {
                 if (response && response.error) {
                     const linkFailedMessage = {
                         id: t('permalink.error.access'),
-                        defaultMessage: 'Permalink belongs to a deleted message or to a channel to which you do not have access.',
+                        defaultMessage: 'You are not a member of this private channel.',
                     };
 
                     alertErrorWithFallback(this.context.intl, response.error.message || {}, linkFailedMessage);
