@@ -184,7 +184,7 @@ export default class PostList extends PureComponent {
                 }),
                 formatMessage({
                     id: 'mobile.server_link.error.text',
-                    defaultMessage: 'We were unable to locate a Mattermost server for the link you tried.\n\nPlease check the address of the link or contact an administrator.',
+                    defaultMessage: 'The link could not be found on this server.',
                 }),
             );
         }
